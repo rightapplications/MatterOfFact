@@ -1,0 +1,51 @@
+
+.scrollgeneric {
+line-height: 1px; 
+font-size: 1px;
+position: absolute; 
+top: 0; 
+left: 0;
+}
+
+.vscrollerbase, .vscrollerbar {
+width: 15px;
+}
+
+.hscrollerbase {
+height: 15px;
+}
+
+.vscrollerbar {
+padding: 5px;
+z-index: 2;
+}
+.vscrollerbarbeg {
+background: url(../images/vscroller.png) 0 -10px;
+width: 15px;
+}
+
+.vscrollerbarend {
+background: url(../images/vscroller.png);
+width: 15px; 
+height: 10px;
+}
+
+.vscrollerbasebeg {
+width: 15px;
+}
+
+.vscrollerbaseend {
+height: 7px; 
+width: 15px;
+}
+
+.scrollerjogbox {
+width: 15px; 
+height: 15px;
+top: auto; 
+left: auto; 
+bottom: 0px; 
+right: 0px;
+/*background: url(../images/scrolljog.png) 50% 50%;*/
+border:1px solid #f00;
+}

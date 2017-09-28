@@ -1,0 +1,272 @@
+/*
+	Theme Name: Matteroffact
+	Description: Matteroffact theme
+	Version: 1.0
+	Author: Rightapplications
+	Tags: Blank, HTML5, CSS3
+
+*/
+
+.nav .textwidget{
+    float:right;
+}
+@media (max-width: 767px){
+.nav .textwidget{
+    float:none;
+}
+
+}
+
+.current-menu-item a, .current-post-ancestor a, .current-category-ancestor a{
+    border-top: 3px solid #f8ca39!important;
+}
+.carousel-control{
+    width: auto!important;
+}
+
+.addtoany_list a{
+    display:block!important;
+}
+.a2a_svg{
+    margin-top: 9px;
+}
+.a2a_button_facebook .a2a_svg{
+    margin-right: 5px;
+}
+.a2a_menu{
+    background-color:#666!important;
+}
+.a2a_menu_show_more_less{
+    color:#fff!important;
+}
+.a2a_menu_show_more_less:hover{
+    background-color:#888!important;
+}
+.a2a_i{
+    color:#fff!important;
+    border-color:#666!important;
+}
+.a2a_i:hover{
+    background-color:#888!important;
+}
+
+.alm-listing li{
+    padding:0 15px!important;
+}
+
+.carousel-inner .item{
+    cursor:pointer;
+}
+
+
+.banner-container{
+	margin:0 auto;
+}
+.banner-content{
+	margin:0 auto;
+	background-color:#00508b;
+	position:relative;
+}
+.text-vertical{
+	background-color:#e12b09;
+	color:#fff;
+}
+@media (min-width: 980px) {
+	.banner-container{
+		margin-top:55px;
+	}
+	.banner-content{
+		width:960px;
+		height:120px;
+		background:#00508b url(images/banner/star-1.png) no-repeat 200px 0;
+	}
+	.woman-bg{
+		background:url(images/banner/woman-1.png) no-repeat 100% 0;
+		width:100%;
+		float:left;
+		position:relative;
+		width:960px;
+		height:120px;
+	}
+	.text-vertical{
+		position:absolute;
+		left:0;
+		top:0;
+		width:40px;
+		height:120px;
+	}
+	.text-vertical span{
+		display:block;
+		width:120px;
+		height:40px;
+		-moz-transform: rotate(-90deg);
+	    -webkit-transform: rotate(-90deg);
+	    -o-transform: rotate(-90deg);
+		text-align:center;
+		margin:40px 0 0 -40px;
+		line-height:40px;
+	}
+	.text-block{
+		position:relative;
+		padding:20px 0 0px 65px;
+	}
+	.text-comingdata{
+		margin:0 0 5px 0;
+		color:#fff;
+		text-transform:uppercase;
+		font-size:14px;
+	}
+	.text-banner{
+		color:#fff;
+		font-size:30px;
+		text-transform:uppercase;
+	}
+	.text-banner font{
+		color:#f9c93a;
+		padding-left:20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.banner-container{
+		margin-top:55px;
+	}
+	.banner-content{
+		width:620px;
+		height:120px;
+		background:#00508b url(images/banner/star-1.png) no-repeat 200px 0;
+	}
+	.woman-bg{
+		background:url(images/banner/woman-1.png) no-repeat 100% 0;
+		width:100%;
+		float:left;
+		position:relative;
+		width:620px;
+		height:120px;
+	}
+	.text-vertical{
+		position:absolute;
+		left:0;
+		top:0;
+		width:40px;
+		height:120px;
+	}
+	.text-vertical span{
+		display:block;
+		width:120px;
+		height:40px;
+		-moz-transform: rotate(-90deg);
+	    -webkit-transform: rotate(-90deg);
+	    -o-transform: rotate(-90deg);
+		text-align:center;
+		margin:40px 0 0 -40px;
+		line-height:40px;
+	}
+	.text-block{
+		position:relative;
+		padding:20px 0 0px 65px;
+	}
+	.text-comingdata{
+		margin:0 0 5px 0;
+		color:#fff;
+		text-transform:uppercase;
+		font-size:14px;
+	}
+	.text-banner{
+		color:#fff;
+		font-size:30px;
+		line-height:30px;
+		text-transform:uppercase;
+	}
+	.text-banner span{
+		display:block;
+	}
+	.text-banner font{
+		color:#f9c93a;
+		display:block;
+	}
+}
+@media (max-width: 767px) {
+	.banner-container{
+		margin-top:55px;
+	}
+	.banner-content{
+		width:100%;
+		float:left;
+		background:#00508b;
+	}
+	.woman-bg{
+  width:100%;
+  float:left;
+  position:relative;
+  background:url(images/banner/woman-1m.png) no-repeat 100% 8px; 
+ }
+	.text-vertical{
+		height:40px;
+	}
+	.text-vertical span{
+		display:block;
+		height:40px;
+		line-height:40px;
+		text-align:center;
+	}
+	.text-block{
+		position:relative;
+		padding:20px 100px 20px 20px;
+	}
+	.text-comingdata{
+		margin:0 0 5px 0;
+		color:#fff;
+		text-transform:uppercase;
+		font-size:14px;
+	}
+	.text-banner{
+		color:#fff;
+		font-size:30px;
+		line-height:30px;
+		text-transform:uppercase;
+	}
+	.text-banner span{
+		display:block;
+	}
+	.text-banner font{
+		color:#f9c93a;
+		display:block;
+	}
+}
+
+.twitter-block {
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 340px;
+	margin-bottom:20px;
+}
+
+.white{color:#fff!important}
+
+.sidebar-1-menu a:hover, .sidebar-1-menu li.current-menu-item a {
+	border-top:none!important;
+    color: #f9c93a;
+}
+.new-carousel{
+	background: rgba(0, 0, 0, 0) radial-gradient(ellipse at center center , #666666 0%, #000000 100%) repeat scroll 0 0;
+}
+.new-carousel .row{
+	background: rgba(0, 0, 0, 0) url("images/hatch.png") repeat scroll 0 0!important;
+}
+
+
+.watch_img img{
+	width:95%;
+	border-top: 3px solid #F9C93A;
+}
+@media (max-width: 1199px) {
+	.watch_img img{
+		width:100%;
+	}
+}
+
+.photo-about-v1.video div{
+	border-top: 3px solid #F9C93A;
+}
+
